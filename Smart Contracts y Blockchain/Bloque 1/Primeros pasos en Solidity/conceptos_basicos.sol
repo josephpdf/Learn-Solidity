@@ -24,3 +24,12 @@ contract PrimerContrato {
         token = new ERC20Basic(1000);
     }
 }
+
+//Estandar de comentarios en Solidity natspec
+
+/// @title <Título del contrato>
+/// @author <Autor del contrato>
+/// @notice <Explicar lo que hace el contrato o función>
+/// @dev <Detalles adicionales sobre el contrato o función>
+/// @param <nombre_parametro> <Describir para que sirve el parametro>
+/// @return <valor_retorno> <Describir para que sirve el valor de retorno de una función>
